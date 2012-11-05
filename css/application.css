@@ -1,0 +1,176 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #7ba1a8;
+	font: 12px 'Lucida Grande',Arial,sans-serif;
+}
+
+header {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 36px;
+}
+
+div#container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: #FFF;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+section {
+	float:left;
+	width: 76%;
+}
+
+div#sidebar {
+	float: right;
+	width: 20%;
+}
+
+nav {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #E9EAEE;
+	line-height: 25px;
+	border: 1px solid #D1D1D1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+nav ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+nav a {
+	color: #0088CC;
+	text-decoration: none;
+	font-weight: normal;
+	display: block;
+}
+
+nav a.active {
+	color: #FFF;
+	background-color: #0088CC
+}
+
+nav a.active:hover {
+	color: #FFF;
+	background-color: #0088CC;
+}
+
+nav a:hover {
+	color: #000;
+	background-color: #D1D1D1;
+}
+
+aside {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top:30px;
+	background-color: #E9EAEE;
+	border: 1px solid #D1D1D1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+aside img {
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+aside p {
+	margin-top: 0px;
+	padding: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+
+div#clear {
+	clear: both;
+}
+
+footer {
+	clear: both;
+	margin-bottom: -40px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#game {
+	cursor: none;
+}
+
+table {
+	width: 100%;
+	border: 1px solid #D1D1D1;
+	border-collapse: collapse;
+}
+
+table th {
+	background-color: #0088CC;
+	color: #FFF;
+}
+
+table tr {
+	border: 1px solid #D1D1D1;
+}
+
+table tr:nth-child(even) {
+	background: #CCC;
+}
+
+table td {
+	border: 1px solid #D1D1D1;
+	padding: 3px;
+}
+
+table tfoot td {
+	text-align: center;
+}
+
+table#contact td {
+	border: 0px;
+	padding: 10px;
+}
+
+table#contact td.align_right {
+	text-align: right;
+	font-weight: bold;
+}
+
+textarea {
+	width: 300px;
+	height: 100px;
+}
+
+input {
+	width: 150px;
+}
+
+p.center {
+	text-align: center;
+}
+
+#submit {
+	width: 100px;
+}
